@@ -1,0 +1,18 @@
+
+# To run Rabbitmq Server
+1) After successful installation and set path variable ERLANG_HOME in envirnment variable,
+open Rabbitmq command prompt
+rabbitmq-plugins.bat enable rabbitmq_management
+2) To verify goto
+http://localhost:15672/mgmt
+Username: guest
+Password: guest
+
+# To Run Zipkin server
+1) Goto zipkin-server-2.21.5-exec.jar location and open command promt
+2) Hit below two commonds
+SET RABBIT_URI=amqp://localhost
+then
+java -jar zipkin-server-2.21.5-exec.jar
+3) TO verify goto url:
+http://localhost:9411/zipkin/
