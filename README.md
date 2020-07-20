@@ -1,4 +1,4 @@
-# Micro-services learning (Begining stage)
+# Micro-services (beginning stage)
 
 ### Environment and used concepts/technologies 
 
